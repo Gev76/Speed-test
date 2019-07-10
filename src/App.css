@@ -1,0 +1,197 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+#arrow {
+  width: 9px;
+  height: 5px;
+}
+
+#header {
+  height: 70px;
+  width: 100%;
+  background-color: #0C6195;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo {
+  align-items: center;
+  flex: 1;
+  margin-left: 3%;
+}
+.text {
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+
+#last {
+  margin-right: 7px;
+}
+
+#currentScore {
+  /*font-family: 'Roboto';*/
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+
+#currentText {
+  font-size: 29px;
+  color: #595959b8;
+  margin-bottom: 10px;
+}
+
+#number {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+#num {
+  align-items: flex-end;
+  margin-right: 25px;
+}
+
+.button {
+  padding: 0px 25px;
+  font-size: 24px;
+  font-weight: 100;
+  /*text-align: center;*/
+  color: #ffffffb3;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  margin-top: 22px;
+
+  font-family:  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.half-circle {
+  width: 340px;
+  height: 170px; /* as the half of the width */
+  background-color: gold;
+  border-top-left-radius: 170px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 170px; /* 100px of height + 10px of border */
+  border-bottom: 0;
+  background-image: linear-gradient(#C8FFA5, #8DFF26, #FFEB00, #FF0000)
+}
+
+#small-circle {
+  width: 320px;
+  height: 160px; /* as the half of the width */
+  background-color: white;
+  border-top-left-radius: 160px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 160px; /* 100px of height + 10px of border */
+  border-bottom: 0;
+  position: relative;
+  left: 10px;
+  top: 10px
+}
+
+#speedometer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+
+}
+
+#pointer {
+  width: 180px;
+  height: 60px;
+  position: relative;
+  bottom: 50px;
+  right: 7px;
+  transform-origin: bottom right;
+}
+
+#hilo {
+  font-weight: 100;
+  font-size: 21px;
+  position: relative;
+  bottom: 55px;
+  right: 4px;
+  color: #2c353887;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(134, 134, 134, 0.41);
+  outline: none;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 8px;
+  height: 104px;
+  top: 24px;
+  font-weight: 100;
+  flex: 1
+}
+
+#box-buttom {
+  background-color: rgba(134, 134, 134, 0.41);
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #595959b8;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  top: 30px;
+  font-weight: 100;
+}
+
+#list {
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  border: none;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  border: none;
+  align-items: center;
+  width: 100%;
+}
+
+.sides {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  align-items: center;
+}
+
+.flex {
+  flex: 1
+}
+
+
+
+/*.resp {*/
+/*  width: 17%*/
+/*}*/
+
+@media screen and (max-width: 700px){
+
+
+
+}
